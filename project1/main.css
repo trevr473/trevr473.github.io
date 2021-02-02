@@ -1,0 +1,192 @@
+* {
+    padding: 20px;
+    margin: 0px;
+}
+
+body{
+  background-color:#AFD5F9;
+}
+
+
+.title {
+	color: #1972C3;
+	position: absolute;
+	font-family: arial;
+	font-weight:bold;
+	font-size:75px;
+	left: 120px;
+	bottom: 400px;
+}
+
+.twit {
+	position: absolute;
+	font-family: arial;
+	font-weight:bold;
+	font-size: 50px;
+	bottom: 250px;
+	left: 130px;
+	width: 50%;
+	padding: 30px;
+	text-decoration: none;
+
+}
+
+.twit:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.insta {
+	position: absolute;
+	font-family: arial; 
+	font-weight: bold;
+	font-size: 50px;
+	bottom: 250px;
+	left:470px;
+	width: 50%;
+	padding: 30px;
+	text-decoration: none;
+}
+
+ .insta:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ }
+
+.vim {
+	position: absolute;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 50px;
+	bottom: 250px;
+	left: 930px;
+	width: 50%
+	padding: 30px;
+	text-decoration: none;  
+}
+
+.vim:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+
+.twit2 {
+	position: absolute;
+	bottom: 150px;
+	left: 340px;
+}
+
+
+.twit3 {
+	position: relative;
+	left: 300px;
+
+}
+
+.twit4 {
+	position: relative;
+	left: 285px;
+
+}
+
+.instapage {
+	position: absolute;
+	bottom: 150px;
+	left: 230px;
+}
+
+.instapage2 {
+	position: relative;
+	left: 320px;
+}
+
+.instapage3 {
+	position: relative;
+	left: 285px;
+}
+
+
+.vimpage {
+	position: absolute;
+	bottom: 200px;
+	left: 200px;
+}
+
+.vimpage2 {
+	position: absolute;
+	bottom: 150px;
+	left: 300px;
+}
+
+.back {
+	color: #1972C3;
+	position: absolute;
+	font-family: arial;
+	font-weight:bold;
+	font-size:30px;
+	left: 10px;
+	bottom: 570px;
+}
+
+.back:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+
+
+.prince {
+	position: absolute;
+	font-family: arial; 
+	font-weight: bold;
+	font-size: 40px;
+	bottom: 250px;
+	left:350px;
+	width: 50%;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.prince:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.sound {
+position: absolute;
+left: 430px;
+bottom: 10px;
+padding: 30px;
+
+}
+
+.link {
+	color: #1972C3;
+	position: absolute;
+	font-family: arial;
+	font-weight:bold;
+	font-size:30px;
+	left: 10px;
+	bottom: 500px;
+}
+
+.link:hover {
+	background: -webkit-radial-gradient(#82ACD3, #82ACD3, #82ACD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+
+
