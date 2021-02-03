@@ -87,13 +87,14 @@ body{
 }
 
 
-.twit3 {
+.twit3 img {
 	position: relative;
 	left: 300px;
+	bottom: -50px;
 
 }
 
-.twit4 {
+.twit4 img {
 	position: relative;
 	left: 285px;
 
@@ -105,12 +106,13 @@ body{
 	left: 230px;
 }
 
-.instapage2 {
+.instapage2 img {
 	position: relative;
 	left: 320px;
+	bottom: -50px;
 }
 
-.instapage3 {
+.instapage3 img {
 	position: relative;
 	left: 285px;
 }
@@ -122,10 +124,10 @@ body{
 	left: 200px;
 }
 
-.vimpage2 {
+.vimpage2 img {
 	position: absolute;
 	bottom: 150px;
-	left: 300px;
+	left: 350px;
 }
 
 .back {
@@ -144,7 +146,6 @@ body{
   -webkit-text-fill-color: transparent;
   cursor: pointer;
  } 
-
 
 
 .prince {
