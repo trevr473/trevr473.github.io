@@ -1,0 +1,49 @@
+* {
+  box-sizing:border-box;
+  margin:10px;
+  }
+body{
+  background-color:#FFEAA1;
+}
+
+
+h1 {
+font-family:Brush Script MT;
+font-size:50px;
+color: #FF833E;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+ }
+
+p {
+font-family:arial;
+font-size:20px;
+color: #FFC700;
+padding: 20px;
+border-radius: 8px;
+}
+
+.ingredients {
+font-family:impact;
+font-size:20px;
+color: #FFC700;
+padding: 20px;
+border-radius: 8px;
+}
+
+.instructions {
+font-family:georgia,serif;
+font-size:20px;
+color: #FFC700;
+padding: 20px;
+border-radius: 8px;
+}
+
+.egg img {
+position: absolute;
+    bottom: 80px;
+    left: 550px;
+    margin-top: 60px;
+}
+}
