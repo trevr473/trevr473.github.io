@@ -1,0 +1,48 @@
+* {
+    padding: 20px;
+    margin: 0px;
+}
+
+body{
+  background-color:#7D6D6D;
+}
+
+h1{
+font-family:impact;
+font-size:50px;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+ }
+
+ .list {
+font-family:arial;
+font-size:20px;
+padding: 20px;
+border-radius: 8px;
+font-weight: bold;
+ } 
+
+ .list1
+{
+font-family:arial;
+font-size:20px;
+padding: 20px;
+border-radius: 8px;
+font-weight: bold;
+ } 	
+
+ .dada img {
+ position: absolute;
+    bottom: 140px;
+    left: 550px;
+    margin-top: 60px; 
+}
+
+.universal img 
+{
+ position: absolute;
+    bottom: -250px;
+    left: 550px;
+    margin-top: 60px; 
+}
