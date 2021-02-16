@@ -30,7 +30,7 @@ body {
   font-family: 'Oswald', sans-serif;;
     font-weight: 400px;
     font-size: 70px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-align: center;
     color: #5FA646;
     margin: 10px;
@@ -41,7 +41,7 @@ body {
     font-weight: normal;
     text-decoration: none;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     text-align: left;
     letter-spacing: 1px;
     padding: 35px;
@@ -53,7 +53,7 @@ body {
   font-family: 'Oswald', sans-serif;;
     font-weight: 400px;
     font-size: 70px;
-    letter-spacing: 1px;
+    letter-spacing: 10px;
     text-align: center;
     color: #EB9FDA;
 
@@ -63,7 +63,6 @@ h2 {
   font-family: helvetica;
     font-weight: 400px;
     font-size: 30px;
-    letter-spacing: 1px;
     text-align: left;
     letter-spacing: 3px;
     padding: 15px;
@@ -77,7 +76,7 @@ h2 {
     font-weight: normal;
     text-decoration: none;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     text-align: left;
     letter-spacing: 1px;
     padding: 35px;
