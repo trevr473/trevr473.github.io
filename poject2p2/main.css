@@ -1,0 +1,297 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  }
+
+.name-container {
+    position: absolute;
+    width: 1300px;
+    height: 65px;
+    background-color:#C4C4C4;
+}
+
+.profile {
+position: absolute;
+height: 47px;
+width: 46px;
+left: 20px;
+top:10px;
+background-color: #ffffff;
+border-radius: 50%;
+display: inline-block;
+}
+.name {
+position: absolute;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: bold;
+left: 90px;
+top: 20px;
+}
+
+.text {
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 100px;
+width: 300px;
+}
+
+.text-container {
+ position: absolute;
+ width: 325px;
+ height: 170px;
+ left: 75px;
+ top: 90px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text2{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 290px;
+width: 300px;
+}
+
+.text-container2 {
+ position: absolute;
+ width: 325px;
+ height: 150px;
+ left: 75px;
+ top: 280px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text3{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 315px;
+top: 458px;
+width: 300px;
+}
+
+.text-container3 {
+ position: absolute;
+ width: 330px;
+ height: 165px;
+ left: 300px;
+ top: 450px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text4{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 315px;
+top: 638px;
+width: 300px;
+}
+
+.text-container4 {
+ position: absolute;
+ width: 330px;
+ height: 250px;
+ left: 300px;
+ top: 630px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text5{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 315px;
+top: 898px;
+width: 300px;
+}
+
+.text-container5 {
+ position: absolute;
+ width: 330px;
+ height: 270px;
+ left: 300px;
+ top: 890px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text6{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 1180px;
+width: 300px;
+}
+
+.text-container6 {
+ position: absolute;
+ width: 330px;
+ height: 210px;
+ left: 75px;
+ top: 1170px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text7{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 1400px;
+width: 300px;
+}
+
+.text-container7 {
+ position: absolute;
+ width: 330px;
+ height: 130px;
+ left: 75px;
+ top: 1390px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text7{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 1400px;
+width: 300px;
+}
+
+.text-container7 {
+ position: absolute;
+ width: 330px;
+ height: 130px;
+ left: 75px;
+ top: 1390px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text8{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 90px;
+top: 1538px;
+width: 300px;
+}
+
+.text-container8 {
+ position: absolute;
+ width: 330px;
+ height: 100px;
+ left: 75px;
+ top: 1530px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text9{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 0px;
+top: 115px;
+width: 300px;
+}
+
+.text-container9 {
+ position: absolute;
+ width: 330px;
+ height: 320px;
+ left: -15px;
+ top: 105px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text10{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: -0px;
+top: 450px;
+width: 300px;
+}
+
+.text-container10 {
+ position: absolute;
+ width: 330px;
+ height: 250px;
+ left: -15px;
+ top: 440px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text11{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 225px;
+top: 710px;
+width: 300px;
+}
+
+.text-container11 {
+ position: absolute;
+ width: 330px;
+ height: 105px;
+ left: 215px;
+ top: 700px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+.text12{
+position: absolute;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: normal;
+left: 227px;
+top: 825px;
+width: 300px;
+}
+
+.text-container12 {
+ position: absolute;
+ width: 330px;
+ height: 65px;
+ left: 215px;
+ top: 820px;
+ background-color:#C4C4C4;
+ border-radius: 15px;
+}
+
+
+
+
+
+
+ 
