@@ -7,9 +7,9 @@ body {
 	position: relative;
 	width: 95vw;
     margin: 0 auto;
-	background-color: #9DCEC5;
+	background: linear-gradient(180deg, #67D9C4 0%, #FD8CFF 100%);
 	border-style: solid;
-    border-color: #5FA646;
+    border-color: #A7CA5E;
     border-width: 30px;
  
 }
@@ -24,9 +24,10 @@ body {
     border-width: 30px;
    
   }
+  }
 
   h1 { 
-  font-family: helvetica;
+  font-family: 'Oswald', sans-serif;;
     font-weight: 400px;
     font-size: 70px;
     letter-spacing: 1px;
@@ -39,7 +40,7 @@ body {
 }
 
  h1 { 
-  font-family: helvetica;
+  font-family: 'Oswald', sans-serif;;
     font-weight: 400px;
     font-size: 70px;
     letter-spacing: 1px;
@@ -60,7 +61,7 @@ h2 {
 }
 
 .list{
-	font-family: helvetica;
+	font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     text-decoration: none;
     font-size: 20px;
@@ -71,6 +72,7 @@ h2 {
     color: #EB9FDA;
 
 }
+
 
 a {
 	text-decoration: none;
