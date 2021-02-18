@@ -17,6 +17,19 @@ top: 15px;
 
 }
 
+.info5 {
+    position: absolute;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    height: 47px;
+    width: 46px;
+    left: 1221px;
+    top: 15px;
+
+}
+
 a {
 
 text-decoration: none;
@@ -388,8 +401,3 @@ width: 330px;
  background-color:#C4C4C4;
  border-radius: 15px;
 }
-
-
-
-
- 
