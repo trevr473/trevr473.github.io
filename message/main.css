@@ -1,19 +1,14 @@
 * {
-  box-sizing:border-box;
-  margin:0;
+  padding: 0px;
+  margin:0px;
   }
 
 
 .info {
-position: absolute;
-font-family: sans-serif;
-color: #ffffff;
-font-size: 35px;
-font-weight: bold;
-height: 47px;
-width: 46px;
-left: 39px;
-top: 15px;
+width: 300px;
+margin: 50px auto;
+background: 
+
 
 }
 
