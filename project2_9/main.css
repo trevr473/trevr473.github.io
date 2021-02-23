@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin:0px;
+  }
+
+.box1 {
+    position: relative;
+    padding: 25px;
+    background-color: #9DCA8D;
+    text-align: left;
+    max-width: 120%;
+    height: 40px;
+    margin-top: 0px;
+
+}
+
+.title {
+	position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 25px;
+    left: 90px;
+    top: -95px;
+}
+
+.circle {
+ 	position: relative;
+    height: 59px;
+    width: 60px;
+    left: 20px;
+    top: -169px;
+    background-color: #CCEDC1;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: url('cursor.png'), pointer;
+}
+.box2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 23px;
+    background-color: #A0DF8A;
+    text-align: center;
+    width: 35%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.bubble-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble-container.align-left {
+    align-items: flex-start;
+}
+
+.bubble-container.align-right {
+    align-items: flex-end;
+}
+
+.bubble-container.align-middle {
+  align-items: center;
+}
+
+.bubble-container.align-left {
+    align-items: flex-start;
+}
+
+.bubble-container.align-right {
+    align-items: flex-end;
+}
+
+.react1.hide{
+    font-family: comic;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 4px;
+    background-color: #E8F2E4;
+    text-align: center;
+    width: 50%;
+    max-width: 11%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.box3.show {
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #E6FAE0;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
