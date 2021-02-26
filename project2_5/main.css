@@ -10,7 +10,7 @@ html, body {
 
 body {
     font-size:40px;
-    background-color: #E0EEF6;
+    background-color: #6AB8E3;
 }
 
 
@@ -136,7 +136,7 @@ font-family: sans-serif;
     padding: 30px;
     margin:5px;
     text-align: center;
-    color: black;
+    color: #ffffff;
     letter-spacing: 3px;
 
 }
@@ -144,7 +144,7 @@ font-family: sans-serif;
 @media only screen and (max-width: 35em) {
 
     body { 
-      background-color: #AEACAC
+      background-color: #E0EEF6;
    }
 
    .title { 
