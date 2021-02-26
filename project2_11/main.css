@@ -145,16 +145,7 @@ font-family: sans-serif;
     z-index: 200;
 }
 
-.box3.show {
-    font-family: sans-serif;
-    font-size: 30px;
-    padding: 20px;
-    background-color: #E6FAE0;
-    text-align: left;
-    width: 50%;
-    margin-bottom: 10px;
-    border-radius: 30px;
-}
+
 
 
 @media only screen and (max-width: 35em) {
