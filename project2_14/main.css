@@ -351,7 +351,18 @@ font-family: sans-serif;
     margin:5px;
     text-align: center;
     color: #ffffff;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+
+}
+
+.cred {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    margin:5px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
 
 }
 
