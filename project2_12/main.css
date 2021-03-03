@@ -130,10 +130,12 @@ font-family: sans-serif;
         background-image: linear-gradient(to right, #818080, #E5E5E5,#818080);
 }
 
+
+
 .react1.hide{
     font-family: comic;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     padding: 4px;
     background-color: gray;
     text-align: center;
