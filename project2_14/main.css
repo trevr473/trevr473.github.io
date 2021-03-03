@@ -463,6 +463,11 @@ font-family: sans-serif;
    .del { 
       font-size: 10px; 
    }
+
+   .cred { 
+      font-size: 10px; 
+   }
+   
 .circle {
 position: fixed;
     font-family: serif;
