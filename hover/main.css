@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.4;
+    background-color: black;
+}
+
+
+.title {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+}
+
+.titlep p {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.red{
+    font-style: bold;
+     background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    transition: all 0.8s ease;
+}
+.red:hover {
+  font-style: bold;
+  background-color: red;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+.tiny{
+  font-style: bold;
+  transition: all 5s ease-in-out;
+}
+
+.tiny:hover {
+  cursor: pointer;
+  font-size: 0em;
+}
+
