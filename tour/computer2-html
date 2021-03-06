@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>desk tour</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Computer /kəmˈpjuːtə/ </h1>
+         <p> noun </p>
+         <h3>1. an electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program.
+         </h3>
+         <p>a person who makes calculations, especially with a calculating machine.
+         </p>
+    </div>
+
+
+<p class="desk2">
+<img src="imgs/desk2.png" widtch="900" height="700"alt="photo">
+</p>
+    <div class="container2">
+        <h2>Take a look inside my first drawer</h2>
+        <ul>
+            <li><a href='./computer2.html'>computer</a></li>
+            <li><a href='./computer3.html'>notebook</a></li>
+        </ul>
+    </div>
+</body>
+</html>
