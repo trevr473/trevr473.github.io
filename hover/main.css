@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-size: 45px;
     line-height: 1.4;
-    background-color: black;
+    background-color: grey;
 }
 
 
@@ -41,13 +41,5 @@ body {
 }
 
 
-.tiny{
-  font-style: bold;
-  transition: all 5s ease-in-out;
-}
 
-.tiny:hover {
-  cursor: pointer;
-  font-size: 0em;
-}
 
