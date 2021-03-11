@@ -113,3 +113,12 @@ ul:hover li {
   font-family: cursive;
 }
 
+
+.hoverstates {
+font-family:impact;
+font-size:20px;
+color: #FFC700;
+padding: 20px;
+border-radius: 8px;
+}
+
