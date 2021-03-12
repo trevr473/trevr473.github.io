@@ -277,18 +277,18 @@ h1 {
 }
 
 .haiku {
-    color: teal;
-    font-size: 4.5pt;
+  color: teal;
+  font-size: 4.5pt;
 }
-  
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px) {
   .ashleys-item2 {
-  background-color: lightgreen;
-}
+    background-color: lightgreen;
+  }
   .ashleys-item6 {
-  background-color: teal;
-  border-color: white;
-}
+    background-color: teal;
+    border-color: white;
+  }
   .haiku {
     color: white;
     font-size: 4pt;
@@ -303,20 +303,20 @@ h1 {
   top: 480px;
   left: 650px;
 }
-  
+
 #mia-container-1 {
   background: #ffe6ff;
   width: 170px;
   margin-left: 10px;
   color: #4d0099;
-  }
+}
 
-#mia{
-  background:#ffbb33;
-  color:#4d0099;
-  width:90px;
-  margin-left:190px;
-  margin-top:-30px;
+#mia {
+  background: #ffbb33;
+  color: #4d0099;
+  width: 90px;
+  margin-left: 190px;
+  margin-top: -30px;
 }
 
 #mia-container-2 {
@@ -351,19 +351,17 @@ h1 {
   margin-top: -60px;
   margin-left: 10px;
   border: solid #4d0099;
-  text-align:center;
+  text-align: center;
 }
 
-#mia-container-7{
-  width:100px;
-  height:70px;
-  background:#ffe6ff;
-  margin-top:-70px;
-  margin-left:120px;
-  border:dotted #ffbb33;
+#mia-container-7 {
+  width: 100px;
+  height: 70px;
+  background: #ffe6ff;
+  margin-top: -70px;
+  margin-left: 120px;
+  border: dotted #ffbb33;
 }
-
-
 
 /* Grace Huang */
 
@@ -449,72 +447,72 @@ h1 {
 }
 
 /* Aria Zhou*/
-#aria-zine-page{
-    position:absolute;
-    width:300px;
-    height:300px;
-    background:lightblue;
-    top:340px;
-    left:1050px;
-  }
-  #aria-container{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items:center;
-  }
-  .aria-items{
-    height:90px;
-    width:100px;
-    flex:none;
-  }
-  .aria-item-1{
-    background:red;
-    padding:5px;
-    font-size:15px;
-  }
-  .aria-item-2{
-    background:blue;
-    width:150px;
-    height:100px;
-    border:4px dashed black;
-  }
-  .aria-item-3{
-    font-size:25px;
-    background: coral;
-    flex-basis:80%;
-    height:50px;
-    line-height:0;
-    align-self:flex-start;
-    text-align:center;
-  }
-  .aria-item-4{
-    margin: auto;
-    background:lightyellow;
-    color: darkslategray;  
-  }
-  .aria-item-5{
-    border:2px solid blueviolet;
-    margin: auto;
-  }
-  .aria-item-6{
-    flex-grow: 1;
-    background: grey;
-    text-align: center;
-    height: 50px;
-  }
-@media screen and (max-width: 480px){
-  .aria-item-1{
+#aria-zine-page {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: lightblue;
+  top: 340px;
+  left: 1050px;
+}
+#aria-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.aria-items {
+  height: 90px;
+  width: 100px;
+  flex: none;
+}
+.aria-item-1 {
+  background: red;
+  padding: 5px;
+  font-size: 15px;
+}
+.aria-item-2 {
+  background: blue;
+  width: 150px;
+  height: 100px;
+  border: 4px dashed black;
+}
+.aria-item-3 {
+  font-size: 25px;
+  background: coral;
+  flex-basis: 80%;
+  height: 50px;
+  line-height: 0;
+  align-self: flex-start;
+  text-align: center;
+}
+.aria-item-4 {
+  margin: auto;
+  background: lightyellow;
+  color: darkslategray;
+}
+.aria-item-5 {
+  border: 2px solid blueviolet;
+  margin: auto;
+}
+.aria-item-6 {
+  flex-grow: 1;
+  background: grey;
+  text-align: center;
+  height: 50px;
+}
+@media screen and (max-width: 480px) {
+  .aria-item-1 {
     background: cornflowerblue;
   }
-  .aria-item-2{
+  .aria-item-2 {
     background-color: gold;
   }
-  .aria-item-5{
+  .aria-item-5 {
     border: 1px dotted indigo;
   }
 }
-  
+
 /* Hannah Hwang */
 #hannahs-zine-page {
   background-color: #8eb1c2;
@@ -584,7 +582,6 @@ h1 {
   height: 100px;
 }
 
-
 /* Oriana Lacau */
 #oriana {
   color: green;
@@ -594,8 +591,6 @@ h1 {
   right: 70px;
 }
 
-  
-  
 /* Michael Lim */
 #mike-zine {
   background-image: url("https://media.istockphoto.com/photos/mediterranean-sunset-sicily-picture-id506517392?s=612x612");
@@ -607,56 +602,50 @@ h1 {
   right: 10px;
 }
 .mike-box {
-  display:flex;
-  flex-direction:column;
-  justfiy-content:stretch;
-  allign-items:stretch;
+  display: flex;
+  flex-direction: column;
+  justfiy-content: stretch;
+  allign-items: stretch;
   height: 300px;
   width: 300px;
 }
-.mike-b1{
+.mike-b1 {
   background: blue;
-  text-align:center;
-  align-self:auto;
+  text-align: center;
+  align-self: auto;
 }
-.mike-b2{
-  background:limegreen;
-  text-align:center;
-  align-self:auto;
+.mike-b2 {
+  background: limegreen;
+  text-align: center;
+  align-self: auto;
   flex: 2;
-  
 }
-.mike-b3{
+.mike-b3 {
   background: red;
-  text-align:center;
-  align-self:auto;
+  text-align: center;
+  align-self: auto;
   flex: 1;
 }
-.mike-b4{
+.mike-b4 {
   border: solid;
-  background:black;
+  background: black;
   color: black;
-  text-align:center;
-  align-self:auto;
-  
+  text-align: center;
+  align-self: auto;
 }
-.mike-b5{
+.mike-b5 {
   border: solid;
   background: yellow;
-  text-align:center;
-  align-self:auto;
-  
+  text-align: center;
+  align-self: auto;
 }
-.mike-b6{
-  background:white;
+.mike-b6 {
+  background: white;
   border: pink;
-  text-align:center;
-  align-self:auto;
-  
+  text-align: center;
+  align-self: auto;
 }
 
-  
-  
 /* Lissette Lomeli */
 #lissette-zine-page {
   background: #62bcf5;
@@ -773,7 +762,7 @@ h1 {
   justify-content: stretch;
   align-items: stretch;
   height: 300px;
-  width:300px;
+  width: 300px;
 }
 
 .yeongju-box1 {
@@ -888,8 +877,8 @@ h1 {
 }
 
 .Yufan1 {
-  background-color:aqua;
-  border-color:blueviolet;
+  background-color: aqua;
+  border-color: blueviolet;
   border-width: 2px;
   border-style: solid;
   text-align: center;
@@ -901,140 +890,134 @@ h1 {
 
 .Yufan2 {
   background-color: yellow;
-  
+
   align-self: auto;
   width: 100px;
   height: 50px;
- 
 }
 
 .Yufan3 {
-  background-color:chocolate;
+  background-color: chocolate;
   align-self: auto;
   width: 120px;
   padding-top: 15px;
   height: 100px;
 }
 
-.Yufan4{
-  background-color:darkgrey;
+.Yufan4 {
+  background-color: darkgrey;
   align-self: auto;
   width: 180px;
   height: 100px;
 }
 
 .Yufan5 {
-  background-color:chartreuse;
+  background-color: chartreuse;
   align-self: auto;
   width: 150px;
   height: 100px;
-  float:left;
-
+  float: left;
 }
 
 .Yufan6 {
-  background-color:red;
+  background-color: red;
   border-color: teal;
   border-width: 4px;
   border-style: dotted;
   align-self: auto;
   width: 150px;
   height: 50px;
-  
 }
 @media only screen and (min-width: 1222px) {
   .Yufan4 {
-    background-color:green;
+    background-color: green;
     border-color: #f06443;
   }
+}
 
 /* raquel trevino */
-  
+
 #raquels-zine-page {
- position: relative;
- background: #B189F2;
- border: dashed;
- border-color: green;
- width: 300px;
- height: 300px;
- top: -750px;
- left: -195px;
+  position: relative;
+  background: #B189F2;
+  border: dashed;
+  border-color: green;
+  width: 300px;
+  height: 300px;
+  top: -750px;
+  left: -195px;
 }
 
-a{
-  color:#B189F2;
+a {
+  color: #B189F2;
 }
 
-  
 #raq-1 {
-margin-top: -19px;
-font-size: 20px;
-text-align: center;
-background: #4d0099;
-color: #B189F2;
-width: 287px;
-margin-left: 2px;
+  margin-top: -19px;
+  font-size: 20px;
+  text-align: center;
+  background: #4d0099;
+  color: #B189F2;
+  width: 287px;
+  margin-left: 2px;
 }
-
 
 #raq-2 {
-text-align: center;
-color: #4d0099;
-background: #97CA6F;
-width: 130px;
-height: 37px;
-margin-left: 5px;
-margin-top: -9px;
+  text-align: center;
+  color: #4d0099;
+  background: #97CA6F;
+  width: 130px;
+  height: 37px;
+  margin-left: 5px;
+  margin-top: -9px;
 }
 
 #raq-3 {
- background: #97CA6F;
- color: #4d0099;
- text-align: center;
- width: 124px;
- height: 34px; 
- margin-left: 150px;
- margin-top: 54px;
-
+  background: #97CA6F;
+  color: #4d0099;
+  text-align: center;
+  width: 124px;
+  height: 34px;
+  margin-left: 150px;
+  margin-top: 54px;
 }
 
 #raq-4 {
- margin-left: 7px;
- margin-top: 66px;
- color: #B189F2;
- background: #4d0099;
- color: #B189F2;
- width: 132px; 
+  margin-left: 7px;
+  margin-top: 66px;
+  color: #B189F2;
+  background: #4d0099;
+  color: #B189F2;
+  width: 132px;
 }
 
-
 #raq-6 {
- width: 123px;
- height: 42px;
- background: #BB9DFA;
- margin-top: -268px;
- margin-left: 149px;
- border: solid #4d0099;
- text-align: center;
+  width: 123px;
+  height: 42px;
+  background: #BB9DFA;
+  margin-top: -268px;
+  margin-left: 149px;
+  border: solid #4d0099;
+  text-align: center;
 }
 
 #raq-7 {
- font-size: 27px;
- text-align: center;
- background: #B189F2;
- width: 123px;
- margin-top: -17px;
- margin-left: 149px;
- }
+  font-size: 27px;
+  text-align: center;
+  background: #B189F2;
+  width: 123px;
+  margin-top: -17px;
+  margin-left: 149px;
+}
 
-#raquel{
- background: #C2DFAB;
- color: #4d0099;
- width: 120px;
- text-align: center;
- margin-left: 224px;
- margin-top: -50px;
- transform: rotate( 90deg);
+#raquel {
+  background: #C2DFAB;
+  color: #4d0099;
+  width: 120px;
+  text-align: center;
+  margin-left: 224px;
+  margin-top: -50px;
+  transform: rotate(90deg);
 }
 
 
