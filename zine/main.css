@@ -951,61 +951,62 @@ h1 {
 /* raquel trevino */
   
 #raquels-zine-page {
+ position: relative;
  background: #B189F2;
  border: dashed;
  border-color: green;
- position: relative;
  width: 300px;
  height: 300px;
  top: -750px;
  left: -195px;
 }
 
+a{
+  color:#B189F2;
+}
 
   
 #raq-1 {
 margin-top: -19px;
-    font-size: 20px;
-    text-align: center;
-    background: #4d0099;
-    color: #B189F2;
-    width: 287px;
-    margin-left: 2px;
-  }
+font-size: 20px;
+text-align: center;
+background: #4d0099;
+color: #B189F2;
+width: 287px;
+margin-left: 2px;
+}
 
 
 #raq-2 {
-    background: #97CA6F;
-    color: #4d0099;
-    width: 130px;
-    height: 37px;
-    margin-left: 5px;
-    margin-top: -9px;
-    text-align: center;
+text-align: center;
+color: #4d0099;
+background: #97CA6F;
+width: 130px;
+height: 37px;
+margin-left: 5px;
+margin-top: -9px;
 }
 
 #raq-3 {
  background: #97CA6F;
+ color: #4d0099;
+ text-align: center;
+ width: 124px;
+ height: 34px; 
  margin-left: 150px;
  margin-top: 54px;
- color: #4d0099;
- width: 124px;
- height: 34px;
- text-align: center;
+
 }
 
 #raq-4 {
- background: #4d0099;
- color: #B189F2;
- width: 132px;
  margin-left: 7px;
  margin-top: 66px;
+ color: #B189F2;
+ background: #4d0099;
+ color: #B189F2;
+ width: 132px; 
 }
 
-#raq-5 {
- margin-top: -5px;
- margin-left: 230px;
-}
 
 #raq-6 {
  width: 123px;
@@ -1028,12 +1029,12 @@ margin-top: -19px;
 
 #raquel{
  background: #C2DFAB;
-    color: #4d0099;
-    width: 120px;
-    text-align: center;
-    margin-left: 224px;
-    margin-top: -50px;
-    transform: rotate( 90deg);
+ color: #4d0099;
+ width: 120px;
+ text-align: center;
+ margin-left: 224px;
+ margin-top: -50px;
+ transform: rotate( 90deg);
 }
 
 
