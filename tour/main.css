@@ -23,6 +23,8 @@ position: absolute;
 bottom: -113px;
 left: 432px;
 margin-top: 60px;
+width:900px;
+height:700px;
 }
 
 .desk-2 img {
@@ -30,13 +32,17 @@ position: absolute;
 bottom: -37px;
 left: 432px;
 margin-top: 60px;
+width:900px;
+height:700px;
 }
 
 .desk-3 img {
 position: absolute;
-bottom: 116px;
-left: 483px;
-margin-top: 60px;
+    bottom: -18px;
+    left: 483px;
+    margin-top: 60px;
+    width: 700px;
+    height: 500px;
 }
 
 .container-1 {
@@ -85,4 +91,38 @@ padding: 15px;
 a {
  text-decoration: none;
  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+body {
+	font-size: 10px;
+}
+
+.desk img {
+position: absolute;
+bottom: 59px;
+left: 137px;
+margin-top: 60px;
+width: 500px;
+height: 347px;
+
+}
+
+.desk-2 img {
+position: absolute;
+    bottom: 79px;
+    left: 137px;
+    margin-top: 60px;
+    width: 500px;
+    height: 347px;
+}
+.desk-3 img {
+position: absolute;
+bottom: 59px;
+left: 137px;
+margin-top: 60px;
+width: 450px;
+height: 340px;
+}
 }
