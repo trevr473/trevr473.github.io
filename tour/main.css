@@ -11,6 +11,13 @@ font-size: 1.5em;
 font-style: italic;
 }
 
+.main-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .desk img {
 position: absolute;
 bottom: -113px;
@@ -18,38 +25,38 @@ left: 432px;
 margin-top: 60px;
 }
 
-.desk2 img {
+.desk-2 img {
 position: absolute;
 bottom: -37px;
 left: 432px;
 margin-top: 60px;
 }
 
-.desk3 img {
+.desk-3 img {
 position: absolute;
 bottom: 116px;
 left: 483px;
 margin-top: 60px;
 }
 
-.container1 {
+.container-1 {
 margin: 20px;
 width: 450px;
 }
 
-.container1 h1 {
+.container-1 h1 {
 display: block;
 font-size: 3em;
 font-weight: bold;
 }
 
-.container1 h3 {
+.container-1 h3 {
 display: block;
 font-size: 1.5em;
 font-weight: bold;
 }
 
-.container1 p {
+.container-1 p {
 display: block;
 font-size: 1em;
 font-weight: bold;
@@ -57,18 +64,18 @@ font-weight: bold;
 
 
 
-.container2 {
+.container-2 {
 margin: 20px;
 width: 300px;
 }
 
-.container2 h2 {
+.container-2 h2 {
 font-size: 1.5em;
 line-height: 30px;
 margin:0;
 }
 
-.container2 li {
+.container-2 li {
 font-size: 1.8em;
 line-height: 30px;
 margin:0;
