@@ -103,6 +103,24 @@ margin:0;
 padding: 15px;
 }
 
+.container-3 {
+margin: 20px;
+width: 300px;
+}
+
+.container-3 h2 {
+font-size: 1.5em;
+line-height: 30px;
+margin:0;
+}
+
+.container-3 li {
+font-size: 1.8em;
+line-height: 30px;
+margin:0;
+padding: 15px;
+}
+
 a {
  text-decoration: none;
  color: black;
