@@ -12,6 +12,15 @@ h2 {
   margin: 16px;
 }
 
+.desk img {
+position: absolute;
+bottom: -113px;
+left: 432px;
+margin-top: 60px;
+width:900px;
+height:700px;
+}
+
 .container {
   margin-top: 100px;
   padding: 32px;

@@ -53,11 +53,11 @@ height:700px;
 
 .desk-3 img {
 position: absolute;
-    bottom: -18px;
-    left: 483px;
-    margin-top: 60px;
-    width: 700px;
-    height: 500px;
+bottom: -18px;
+left: 483px;
+margin-top: 60px;
+width: 700px;
+height: 500px;
 }
 
 .container-1 {
@@ -103,23 +103,6 @@ margin:0;
 padding: 15px;
 }
 
-.container-3 {
-margin: 20px;
-width: 300px;
-}
-
-.container-3 h2 {
-font-size: 1.5em;
-line-height: 30px;
-margin:0;
-}
-
-.container-3 li {
-font-size: 1.8em;
-line-height: 30px;
-margin:0;
-padding: 15px;
-}
 
 a {
  text-decoration: none;
