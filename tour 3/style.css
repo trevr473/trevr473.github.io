@@ -12,13 +12,29 @@ h2 {
   margin: 16px;
 }
 
-.desk img {
-position: absolute;
-bottom: -113px;
-left: 432px;
-margin-top: 60px;
-width:900px;
-height:700px;
+
+
+.container-1 {
+margin: 20px;
+width: 450px;
+}
+
+.container-1 h1 {
+display: block;
+font-size: 3em;
+font-weight: bold;
+}
+
+.container-1 h3 {
+display: block;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.container-1 p {
+display: block;
+font-size: 1em;
+font-weight: bold;
 }
 
 .container {
@@ -32,18 +48,7 @@ height:700px;
   flex-direction: column;
 }
 
-.select-box .options-container {
-  background: #2f3640;
-  color: #f5f6fa;
-  max-height: 0;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.4s;
-  border-radius: 8px;
-  overflow: hidden;
 
-  order: 1;
-}
 
 .selected {
   background: #2f3640;
