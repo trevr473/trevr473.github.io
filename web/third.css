@@ -1,0 +1,94 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	transition: .5s;
+}
+
+body {
+	position: relative;
+	min-height: 100vh; 
+	background: url(imgs/thirddesk.png)no-repeat center; 
+}
+
+.container-1 {
+margin: 20px;
+width: 450px;
+}
+
+.container-1 h1 {
+display: block;
+font-size: 3em;
+font-weight: bold;
+}
+
+.container-1 h3 {
+display: block;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.container-1 p {
+display: block;
+font-size: 1em;
+font-weight: bold;
+}
+
+.container-2 {
+margin: 20px;
+width: 300px;
+}
+
+.container-2 h2 {
+font-size: 1.5em;
+line-height: 30px;
+margin:0;
+}
+
+h2:hover  {
+	text-decoration: underline;
+}
+
+ul {
+position: absolute;
+top: 57%;
+left: 1%;
+transform:translateY(-50%);
+}
+
+ul li {
+list-style:none;
+}
+
+ul li a {
+color: black;
+font-size: 2em; 
+font-weight:700;
+text-decoration: none;
+margin: 15px;
+
+}
+
+ul:hover li a {
+	color: rgba(255,255,255,.1);
+}
+
+ul li:hover a {
+	color:grey;
+	text-shadow: 0 2px 2px rgba(0,0,0,.2)
+}
+
+
+@media screen and (max-width: 768px) {
+body {
+	font-size: 10px;
+}
+
+ul {
+position: absolute;
+top: 32%;
+left: 1%;
+transform:translateY(-50%);
+}
+}
