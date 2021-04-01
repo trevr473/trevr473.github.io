@@ -1,17 +1,16 @@
 const body = document.querySelector("body"); 
-const li = document.querySelector("li"); 
-
+const li = document.querySelectorAll("li"); 
 
 li.forEach(el => {
    el.addEventListener("mouseover", () => {
    	let dt = el.getAttribute("data-dt");
-   	body.style.background = 'url(${dt})no-repeat center/cover';
+     console.log(dt);
+   	 document.body.style.background = `url(imgs/${dt})no-repeat center`;
     });
 }); 
 
 
 
- 
 
 
 
