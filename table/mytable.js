@@ -9,9 +9,9 @@
 // copy and paste the base ID into line 14 below
 
 // the next two lines are calling the Airtable API!!
-var Airtable = require("airtable");
-var base = new Airtable({ apiKey: "keyejD5C7eO17ScML" }).base(
-  "appCCf3pM1UCNZ4C7"
+var Airtable = require('airtable');
+var base = new Airtable({ apiKey: "key8cwPepdzTnEIGn" }).base(
+  "appysIBPSBODSgD5v"
 );
 
 // create an empty array for all of your items to go into
@@ -87,6 +87,107 @@ function setTable(allItems) {
         container.appendChild(cup);
       }
     }
+
+      if (name === "Bowl") {
+      for (var i=0; i<3; i++) {
+        let bowl = document.createElement('img');
+       bowl.src = imageUrl;
+        bowl.classList.add("bowl");
+
+        if (i === 0) {
+          bowl.style.left = "80%";
+        }
+        if (i === 1) {
+          bowl.style.left = "80%";
+          bowl.style.top = "60%";
+        }
+        if (i === 2) {
+          bowl.style.left = "10%";
+          bowl.style.top = "10%";
+        }
+
+        container.appendChild(bowl);
+      }
+    }
+
+        if (name === "Spoon") {
+      for (var i=0; i<3; i++) {
+        let spoon = document.createElement('img');
+        spoon.src = imageUrl;
+        spoon.classList.add("spoon");
+
+        if (i === 0) {
+         spoon.style.left = "80%";
+        }
+        if (i === 1) {
+          spoon.style.left = "80%";
+          spoon.style.top = "60%";
+        }
+        if (i === 2) {
+          spoon.style.left = "10%";
+          spoon.style.top = "10%";
+        }
+
+        container.appendChild(spoon);
+      }
+    }
+
+
+
+        if (name === "Flowers") {
+      for (var i=0; i<3; i++) {
+        let flowers = document.createElement('img');
+        flowers.src = imageUrl;
+        flowers.classList.add("flowers");
+
+        if (i === 0) {
+          flowers.style.left = "80%";
+        }
+        if (i === 1) {
+          flowers.style.left = "80%";
+          flowers.style.top = "60%";
+        }
+        if (i === 2) {
+          flowers.style.left = "10%";
+          flowers.style.top = "10%";
+        }
+
+        container.appendChild(flowers);
+      }
+    }
+
+        if (name === "Candle") {
+      for (var i=0; i<3; i++) {
+        let candle = document.createElement('img');
+        candle.src = imageUrl;
+        candle.classList.add("candle");
+
+        if (i === 0) {
+          candle.style.left = "80%";
+        }
+        if (i === 1) {
+          candle.style.left = "80%";
+          candle.style.top = "60%";
+        }
+        if (i === 2) {
+          candle.style.left = "10%";
+          candle.style.top = "10%";
+        }
+
+        container.appendChild(candle);
+      }
+    }
+
+            if (name === "Tablecloth") {
+      for (var i=0; i<3; i++) {
+        let tablecloth = document.createElement('img');
+       tablecloth.src = imageUrl;
+       tablecloth.classList.add("tablecloth");
+       container.appendChild(tablecloth);
+      }
+    }
+
+
 
     // Same idea with the plates.
     // if (name === "Plate") {
