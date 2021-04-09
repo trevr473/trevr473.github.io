@@ -33,7 +33,7 @@ base('my-dinner-table').select({}).eachPage(function page(tableItems, fetchNextP
 
   // all items received, no errors!!
   // console log the allItems array, you should see all of your data in there now.
-  console.log(allItems);
+
 
   // now, call a new function to do stuff with your data and pass the allItems array into it
   setTable(allItems);
@@ -53,172 +53,14 @@ function setTable(allItems) {
     // store the name of the item (from your spreadsheet) into a variable
     let name = item.fields.items;
     // store the image for the item into a variable
-    let imageUrl = item.fields.images[0].url;
+    //let imageUrl = item.fields.images[0].url;
+
+console.log(item)
+    let itemImage = document.createElement('img');
+    itemImage.src = imageUrl;
+    itemImage.classList.add(item.fields.class_name);
+    container.appendChild(itemImage);
 
 
-    // let itemImage = document.createElement('img');
-    // itemImage.src = imageUrl;
-    // itemImage.classList.add(item.fields.kind_of_item);
-    // container.appendChild(itemImage);
-
-    // the following code is for making multiple cups and plates etc out of just one Airtable record and then positioning them in specific spots on the table. these are the names I used in my airtable, yours will be different!!
-    // here i want to do different things with different items
-    // so if the item is a Cup, I want to add a class name of cup, and put each one in a different position on the page.
-    // dont forget, some of the styling for my page here in JS and some is in my CSS file, for example I know that my .cup class has position: absolute set in CSS, which means that style.left and style.top will work here in the JS.
-    
-    if (name === "Cup") {
-      for (var i=0; i<3; i++) {
-        let cup = document.createElement('img');
-        cup.src = imageUrl;
-        cup.classList.add("cup");
-
-        if (i === 0) {
-          cup.style.left = "80%";
-        }
-        if (i === 1) {
-          cup.style.left = "80%";
-          cup.style.top = "60%";
-        }
-        if (i === 2) {
-          cup.style.left = "10%";
-          cup.style.top = "10%";
-        }
-
-        container.appendChild(cup);
-      }
-    }
-
-      if (name === "Bowl") {
-      for (var i=0; i<3; i++) {
-        let bowl = document.createElement('img');
-       bowl.src = imageUrl;
-        bowl.classList.add("bowl");
-
-        if (i === 0) {
-          bowl.style.left = "80%";
-        }
-        if (i === 1) {
-          bowl.style.left = "80%";
-          bowl.style.top = "60%";
-        }
-        if (i === 2) {
-          bowl.style.left = "10%";
-          bowl.style.top = "10%";
-        }
-
-        container.appendChild(bowl);
-      }
-    }
-
-        if (name === "Spoon") {
-      for (var i=0; i<3; i++) {
-        let spoon = document.createElement('img');
-        spoon.src = imageUrl;
-        spoon.classList.add("spoon");
-
-        if (i === 0) {
-         spoon.style.left = "80%";
-        }
-        if (i === 1) {
-          spoon.style.left = "80%";
-          spoon.style.top = "60%";
-        }
-        if (i === 2) {
-          spoon.style.left = "10%";
-          spoon.style.top = "10%";
-        }
-
-        container.appendChild(spoon);
-      }
-    }
-
-
-
-        if (name === "Flowers") {
-      for (var i=0; i<3; i++) {
-        let flowers = document.createElement('img');
-        flowers.src = imageUrl;
-        flowers.classList.add("flowers");
-
-        if (i === 0) {
-          flowers.style.left = "80%";
-        }
-        if (i === 1) {
-          flowers.style.left = "80%";
-          flowers.style.top = "60%";
-        }
-        if (i === 2) {
-          flowers.style.left = "10%";
-          flowers.style.top = "10%";
-        }
-
-        container.appendChild(flowers);
-      }
-    }
-
-        if (name === "Candle") {
-      for (var i=0; i<3; i++) {
-        let candle = document.createElement('img');
-        candle.src = imageUrl;
-        candle.classList.add("candle");
-
-        if (i === 0) {
-          candle.style.left = "80%";
-        }
-        if (i === 1) {
-          candle.style.left = "80%";
-          candle.style.top = "60%";
-        }
-        if (i === 2) {
-          candle.style.left = "10%";
-          candle.style.top = "10%";
-        }
-
-        container.appendChild(candle);
-      }
-    }
-
-            if (name === "Tablecloth") {
-      for (var i=0; i<3; i++) {
-        let tablecloth = document.createElement('img');
-       tablecloth.src = imageUrl;
-       tablecloth.classList.add("tablecloth");
-       container.appendChild(tablecloth);
-      }
-    }
-
-
-
-    // Same idea with the plates.
-    // if (name === "Plate") {
-    //   for (var i=0; i<3; i++) {
-    //     let plate = document.createElement('img');
-    //     plate.src = imageUrl;
-    //     plate.classList.add("plate");
-
-    //     if (i === 0) {
-    //       plate.style.left = "70%";
-    //       plate.style.top = "20%";
-    //     }
-    //     if (i === 1) {
-    //       plate.style.left = "55%";
-    //       plate.style.top = "60%";
-    //     }
-    //     if (i === 2) {
-    //       plate.style.left = "5%";
-    //       plate.style.top = "25%";
-    //     }
-
-    //     container.appendChild(plate);
-    //   }
-    // }
-
-    // Same idea with the tablecloth.
-    // if (name === "Tablecloth") {
-    //   let tablecloth = document.createElement('img');
-    //   tablecloth.src = imageUrl;
-    //   tablecloth.classList.add("tablecloth");
-    //   container.appendChild(tablecloth);
-    // }
   })
 }
