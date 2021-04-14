@@ -53,10 +53,11 @@ function setTable(allItems) {
     // store the name of the item (from your spreadsheet) into a variable
     let name = item.fields.items;
     // store the image for the item into a variable
-    //let imageUrl = item.fields.images[0].url;
+    let imageUrl = item.fields.images[0].url;
 
 console.log(item)
     let itemImage = document.createElement('img');
+    console.log(imageUrl)
     itemImage.src = imageUrl;
     itemImage.classList.add(item.fields.class_name);
     container.appendChild(itemImage);
