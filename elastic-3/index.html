@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>  
-
 <div class="popup" id="popup-1">
   <div class="overlay"></div>
   <div class="content">
@@ -22,6 +21,31 @@
 </div>
  
 <button onclick="togglePopup()">What Wore We?</button>
+
+<div class="right-col">
+    <img src="media/play.png" id="icon">
+</div>
+
+<audio id="mySong">
+    
+<source src="media/song.mp3" type="audio/mp3">
+</audio>
+
+<script>
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function() {
+       if (mySong.paused){
+            mySong.play();
+            icon.src = "media/pause.png";
+        }else{
+            mySong.pause();
+            icon.src = "media/play.png"
+        }
+    }
+
+</script>
 
         <div id="content-wrapper">
               <div id="right">
@@ -78,6 +102,7 @@
               <img src="imgs/0.80.jpg" alt="photo">
         </div>
         <div id="left">
+              <img src="imgs/0.70.jpg" alt="photo">
               <img src="imgs/0.77.jpg" alt="photo">
               <img src="imgs/0.51.jpg" alt="photo">
               <img src="imgs/0.89.jpg" alt="photo">
@@ -127,8 +152,8 @@
               <img src="imgs/0.95.jpg" alt="photo">
               <img src="imgs/0.96.jpg" alt="photo">
               <img src="imgs/0.97.jpg" alt="photo">
+              <img src="imgs/0.94.jpg" alt="photo">
               <img src="imgs/0.98.jpg" alt="photo">
-              <img src="imgs/0.70.jpg" alt="photo">
         </div>
     </div>
 <script src="script.js"></script>

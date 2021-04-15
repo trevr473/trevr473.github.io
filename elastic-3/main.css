@@ -6,6 +6,19 @@ html, body {
   scroll-behavior: smooth;
 }
 
+.right-col {
+float: left;
+margin-left: 5%;
+margin-top: 76px;
+display: flex;
+align-items: left;
+}
+
+#icon {
+width: 40px;
+cursor: pointer;
+}
+
 
 .popup .overlay {
   position:fixed;
