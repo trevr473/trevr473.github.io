@@ -107,11 +107,10 @@ img {
 
 #right {
   width: 30%;
-  height: 130vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  overflow: scroll;
+  transform: translateY(-100%);
 }
 
 #left{
