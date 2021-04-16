@@ -24,6 +24,8 @@ function addBubble(event) {
 		let bubbleAdder = document.createElement("div");
 		bubbleAdder.classList.add("bubble")
 		console.log(bubbleAdder);
+		document.body.appendChild(bubbleAdder);
+		putBubblesAllOverPage();
 
 	} else {
 
