@@ -11,16 +11,17 @@ function scrollRightColumn(){
     setTimeout(function(){ 
     	//check if the scoll top right column div is automoatically scrolling up 
       console.log('scroll right div up');
-      //  scrollTop value is a measurement of the distance from the element's top to its topmost visible content
+      //scrollTop value is a measurement of the distance from the element's top to its topmost visible content
       //The height of the viewing window
-      //
+      //The height to which the window is scrolled
+      //The height of the right bar
       //the math would be window_height + scroll_height == right_bar_height
       scrollTopRight = scrollTopRight + 100;
       console.log(scrollTopRight);
       // Get the number of pixels scrolled.
       textElementRight.scrollTop = scrollTopRight;
       scrollRightColumn();
-    }, 1000);
+    }, 1000); //not sure - the width 
 	}	
 	else {
 		scrollTopRight = 0; //scroll back to top when text reaches to the end
