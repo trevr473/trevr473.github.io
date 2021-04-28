@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>An Undoing: A Story of Resilience</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<h1>An Undoing: A Story of Resilience</h1>
+
+<div class="wrap">
+    <div id="collection">
+        <div class="image"><img src="imgs/plate0.1.png"></div>
+        <div class="image"><img src="imgs/plate0.2.png"></div>   
+        <div class="image"><img src="imgs/plate0.3.png"></div>   
+        <div class="image"><img src="imgs/plate0.4.png"></div>   
+        <div class="image"><img src="imgs/plate0.5.png"></div>   
+        <div class="image"><img src="imgs/plate0.6.png"></div>   
+    </div> 
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     <script type="text/javascript">
+
+     $(function(){
+        $("#collection .image").draggable();
+});
+</script>
+
+</html>
