@@ -16,3 +16,4 @@ window.onload = function () {
 	    object.style.top = touchLocation.pageY + 'px';
         })
 }
+
