@@ -41,7 +41,7 @@ a {
   position: relative;
 }
 
-.plate {
+.plate img{
   position: absolute;
   display: block;
   width: 80%;
