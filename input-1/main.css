@@ -35,13 +35,18 @@ a {
   padding: 8px 16px;
 }
 
-.wrap {
-	width: 100%;
-    margin: 0 auto;
+.container {
+  width: 90%;
+  height: 250px;
+  position: relative;
 }
-.image img {
-	width: 420px;
-    float: left;
+
+.plate {
+  position: absolute;
+  display: block;
+  width: 80%;
+  height: auto;
+  cursor: move;
 }
 
 

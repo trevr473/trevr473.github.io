@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:#ffffff;
+	margin: 2%
+}
+
+img{
+	position: relative;
+	float: center;
+	width: auto;
+	height: 300px;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin:20px auto;
+	padding:10px;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+select{
+	font-size:20px;
+	margin-bottom:25px;
+	font-family: 'Anton', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+		img{
+			position: relative;
+			float: center;
+			width: auto;
+			height: 200px;
+		}
+	}
