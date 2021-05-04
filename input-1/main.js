@@ -37,4 +37,4 @@ function setTable(allItems) {
     // FUNCTION: draggable img
 function makeObjectsDraggable(dragItems) {
   const container = document.body;
-
+};
