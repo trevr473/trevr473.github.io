@@ -33,7 +33,7 @@ nav ul {
 
 nav li {
 list-style: none;
-margin-right: 120px;
+margin-right: 312px;
 }
 
 nav li: nth-last-of-type(1){
@@ -48,20 +48,17 @@ font-family: roboto, sans-serif;
 font-weight: bold;
 position: absolute;
 top: 10px;
-
 }
 
 .container {
+  display: flex;
   width: 90%;
-  height: 250px;
-  position: relative;
+  margin: 50px;
 }
 
 .plate img{
-  position: absolute;
   display: block;
-  width: 60%;
-  height: auto;
+  width: 180%;
   cursor: move;
 }
 
