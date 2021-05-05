@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>An Undoing: A Story of Resilience</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Undone: A Puzzle of Resilience</h1>
+<h2>MUG</h2>
+    <div class="nav-container">
+        <nav> 
+            <ul>
+
+            <li> 
+                <a href="info.html">Info</a>
+            </li>
+            <li> 
+                <a href="bowl.html" class="previous"> Previous</a>
+                
+            </li>
+            <li> 
+                <a href="vase.html" class="next">Next</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+    
+
+
+<div class="container">
+        <div class="image"><img src="imgs/mug0.1.png"></div>
+        <div class="image"><img src="imgs/mug0.2.png"></div>   
+        <div class="image"><img src="imgs/mug0.3.png"></div>   
+        <div class="image"><img src="imgs/mug0.4.png"></div>   
+        <div class="image"><img src="imgs/mug0.5.png"></div>   
+        <div class="image"><img src="imgs/mug0.6.png"></div>   
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     <script type="text/javascript">
+
+     $(function(){
+        $("#objects .image").draggable();
+});
+</script>
+<script src="main.js"></script>
+</body>
+</html>
