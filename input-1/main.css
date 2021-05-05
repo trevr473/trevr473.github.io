@@ -11,6 +11,15 @@ h1 {
   font-family: roboto, sans-serif;
 }
 
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: roboto, sans-serif;
+  margin-left: 520px;
+  margin-top: 130px;
+  letter-spacing: 20px;
+}
+
 
   /* navigation */
 
