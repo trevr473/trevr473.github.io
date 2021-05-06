@@ -320,4 +320,285 @@ text-decoration: none;
   
  }
 
+ /* target only screens up to 738px */
+@media only screen and (max-width: 738px){
+  h1 {
+  color: white;
+  font-size: 10px;
+  font-family: roboto, sans-serif;
+  margin:6px;
+}
+
+h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-size: 10px;
+  font-family: roboto, sans-serif;
+  margin:6px;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 10px;
+  font-family: roboto, sans-serif;
+  margin:6px;
+
+}
+
+.next {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-size: 10px;
+  font-family: roboto, sans-serif;
+  margin:6px;
+
+}
+
+.info-container{
+  padding: 30px;
+}
+
+p {
+  color:white; 
+  font-weight: normal;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  border: 20px; 
+  padding-top: 30px;
+  margin: 80px;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.plate-1 {
+  top: 60%;
+  left: 1%;
+  position: relative;
+}
+
+.plate-2 {
+  top: 20%;
+  left: 4%;
+  position: relative;
+}
+
+.plate-3 {
+  top: 45%;
+  left: 1%;
+  position: relative;
+}
+
+.plate-4 {
+    top: 25%;
+    left: 1%;
+    position: relative;
+}
+
+.plate-5 {
+    top: 65%;
+    left: 1%;
+    position: relative;
+}
+
+.plate-6 {
+    top: 35%;
+    left: -3%;
+    position: relative;
+}
+
+.bowl-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.bowl-2 {
+  top: 40%;
+  left: 14%;
+  position: relative;
+}
+
+.bowl-3 {
+  top: 78%;
+  left: 1%;
+  position: relative;
+}
+
+.bowl-4 {
+    top: 10%;
+    left: 1%;
+    position: relative;
+}
+
+.bowl-5 {
+    top: 45%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.mug-2 {
+    top: 40%;
+    left: 11%;
+    position: relative;
+}
+
+.mug-3 {
+    top: 80%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-4 {
+    top: 12%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-5 {
+    top: 60%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-6 {
+    top: 20%;
+    left: -3%;
+    position: relative;
+}
+
+.vase-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.vase-2 {
+    top: 10%;
+    left: 11%;
+    position: relative;
+}
+
+.vase-3 {
+    top: 60%;
+    left: 1%;
+    position: relative;
+}
+
+.vase-4 {
+    top: 31%;
+    left: 1%;
+    position: relative;
+}
+
+.vase-5 {
+    top: 74%;
+    left: 1%;
+    position: relative;
+}
+
+
+.vase-6 {
+    top: 19%;
+    left: -3%;
+    position: relative;
+}
+
+.vase-7 {
+    top: 56%;
+    left: -3%;
+    position: relative;
+}
+
+.pot-1 {
+    top: 15%;
+    left: 6%;
+    position: relative;
+}
+
+.pot-2 {
+top: 51%;
+    left: -1%;
+    position: relative;
+}
+
+.pot-3 {
+top: 60%;
+    left: 11%;
+    position: relative;
+}
+
+.pot-4 {
+    top: 28%;
+    left: 1%;
+    position: relative;
+}
+
+.pot-5 {
+    top: 24%;
+    left: 16%;
+    position: relative;
+}
+
+
+.pot-6 {
+    top: 19%;
+    left: -3%;
+    position: relative;
+}
+
+.pitcher-1 {
+    top: 31%;
+    left: 1%;
+    position: relative;
+}
+
+.pitcher-2 {
+    top: 66%;
+    left: 5%;
+    position: relative;
+}
+
+.pitcher-3 {
+top: 42%;
+    left: 11%;
+    position: relative;
+}
+
+.pitcher-4 {
+    top: 63%;
+    left: 11%;
+    position: relative;
+}
+
+.pitcher-5 {
+    top: 44%;
+    left: 16%;
+    position: relative;
+}
+
+
+.pitcher-6 {
+    top: 13%;
+    left: -10%;
+    position: relative;
+}
+
+
+
+}
+
 
