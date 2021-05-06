@@ -12,13 +12,12 @@ body {
 }
 
 
-/* navigation */
 
 h1 {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-family: roboto, sans-serif;
-  margin:0;
+  margin:6px;
 }
 
 h2 {
@@ -26,9 +25,9 @@ h2 {
   bottom: 0;
   left: 0;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-family: roboto, sans-serif;
-  margin:0;
+  margin:6px;
 }
 
 .info {
@@ -36,8 +35,9 @@ h2 {
   top: 0;
   right: 0;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-family: roboto, sans-serif;
+  margin:6px;
 
 }
 
@@ -46,24 +46,17 @@ h2 {
   bottom: 0;
   right: 0;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-family: roboto, sans-serif;
+  margin:6px;
 
-}
-
-
-  /* navigation */
-
-.nav-container {
-  width: 90px;
-  margin: 0 auto;
 }
 
 
 #container {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   position: absolute;
   top:0;
   left: 0;
@@ -78,14 +71,227 @@ h2 {
 
 .image img{
   display: block;
-  width: 150%;
+  width: 130%;
   cursor: move;
 }
 
 .plate-1 {
-  top:20%;
-  left: 10%;
+  top: 31%;
+  left: 1%;
   position: relative;
+}
+
+.plate-2 {
+  top: 10%;
+  left: 4%;
+  position: relative;
+}
+
+.plate-3 {
+  top: 35%;
+  left: 1%;
+  position: relative;
+}
+
+.plate-4 {
+    top: 12%;
+    left: 1%;
+    position: relative;
+}
+
+.plate-5 {
+    top: 45%;
+    left: 1%;
+    position: relative;
+}
+
+.plate-6 {
+    top: 6%;
+    left: -3%;
+    position: relative;
+}
+
+.bowl-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.bowl-2 {
+  top: 10%;
+  left: 14%;
+  position: relative;
+}
+
+.bowl-3 {
+  top: 63%;
+  left: 1%;
+  position: relative;
+}
+
+.bowl-4 {
+    top: -8%;
+    left: 1%;
+    position: relative;
+}
+
+.bowl-5 {
+    top: 45%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.mug-2 {
+top: 27%;
+    left: 11%;
+    position: relative;
+}
+
+.mug-3 {
+    top: 60%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-4 {
+    top: 12%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-5 {
+    top: 45%;
+    left: 1%;
+    position: relative;
+}
+
+.mug-6 {
+    top: 6%;
+    left: -3%;
+    position: relative;
+}
+
+.vase-1 {
+  top: 31%;
+  left: 1%;
+  position: relative;
+}
+
+.vase-2 {
+    top: 10%;
+    left: 11%;
+    position: relative;
+}
+
+.vase-3 {
+    top: 60%;
+    left: 1%;
+    position: relative;
+}
+
+.vase-4 {
+    top: 31%;
+    left: 1%;
+    position: relative;
+}
+
+.vase-5 {
+    top: 74%;
+    left: 1%;
+    position: relative;
+}
+
+
+.vase-6 {
+    top: 19%;
+    left: -3%;
+    position: relative;
+}
+
+.vase-7 {
+    top: 56%;
+    left: -3%;
+    position: relative;
+}
+
+.pot-1 {
+    top: 15%;
+    left: 1%;
+    position: relative;
+}
+
+.pot-2 {
+top: 61%;
+    left: -1%;
+    position: relative;
+}
+
+.pot-3 {
+top: 60%;
+    left: 11%;
+    position: relative;
+}
+
+.pot-4 {
+    top: 18%;
+    left: 1%;
+    position: relative;
+}
+
+.pot-5 {
+    top: 24%;
+    left: 16%;
+    position: relative;
+}
+
+
+.pot-6 {
+    top: 19%;
+    left: -3%;
+    position: relative;
+}
+
+.pitcher-1 {
+    top: 11%;
+    left: 1%;
+    position: relative;
+}
+
+.pitcher-2 {
+    top: 46%;
+    left: 5%;
+    position: relative;
+}
+
+.pitcher-3 {
+top: 22%;
+    left: 11%;
+    position: relative;
+}
+
+.pitcher-4 {
+    top: 43%;
+    left: 11%;
+    position: relative;
+}
+
+.pitcher-5 {
+    top: 24%;
+    left: 16%;
+    position: relative;
+}
+
+
+.pitcher-6 {
+    top: -3%;
+    left: -10%;
+    position: relative;
 }
 
 .info-container{
@@ -101,9 +307,17 @@ p {
   border: 20px; 
   padding-top: 30px;
   margin: 80px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5em;
 }
 
+a {
+text-decoration: none;
+}
+
+ a:hover {
+  text-decoration: line-through;
+  
+ }
 
 

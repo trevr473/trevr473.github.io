@@ -8,46 +8,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
 
     <h1>Undone: A Puzzle of Resilience</h1>
-<h2>MUG</h2>
-    <div class="nav-container">
-        <nav> 
-            <ul>
+  <h2>Mug</h2>
+  <a class="info" href="info.html">Info</a>
+  <a class="next" href="vase.html" class="next">Next</a>
 
-            <li> 
-                <a href="info.html">Info</a>
-            </li>
-            <li> 
-                <a href="bowl.html" class="previous"> Previous</a>
-                
-            </li>
-            <li> 
-                <a href="vase.html" class="next">Next</a>
-            </li>
-            </ul>
-        </nav>
+    <div id="container">
+        <div class="image mug-1"><img src="imgs/mug0.1.png"></div>
+        <div class="image mug-2"><img src="imgs/mug0.2.png"></div>   
+        <div class="image mug-3"><img src="imgs/mug0.3.png"></div>   
+        <div class="image mug-4"><img src="imgs/mug0.4.png"></div>   
+        <div class="image mug-5"><img src="imgs/mug0.5.png"></div>
+        <div class="image mug-6"><img src="imgs/mug0.6.png"></div>    
     </div>
-    
-
-
-<div class="container">
-        <div class="image"><img src="imgs/mug0.1.png"></div>
-        <div class="image"><img src="imgs/mug0.2.png"></div>   
-        <div class="image"><img src="imgs/mug0.3.png"></div>   
-        <div class="image"><img src="imgs/mug0.4.png"></div>   
-        <div class="image"><img src="imgs/mug0.5.png"></div>   
-        <div class="image"><img src="imgs/mug0.6.png"></div>   
 </div>
+
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
      <script type="text/javascript">
 
      $(function(){
-        $("#objects .image").draggable();
+        $("#container .image").draggable();
 });
 </script>
 <script src="main.js"></script>
+
 </body>
 </html>

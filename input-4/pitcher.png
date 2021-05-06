@@ -11,16 +11,16 @@
 <div class="wrapper">
 
     <h1>Undone: A Puzzle of Resilience</h1>
-  <h2>Bowl</h2>
+  <h2>Vase</h2>
   <a class="info" href="info.html">Info</a>
-  <a class="next" href="pitcher.html" class="next">Next</a>
-
+  <a class="next" href="vase.html" class="next">Next</a>
     <div id="container">
-        <div class="image bowl-1"><img src="imgs/bowl0.1.png"></div>
-        <div class="image bowl-2"><img src="imgs/bowl0.2.png"></div>   
-        <div class="image bowl-3"><img src="imgs/bowl0.3.png"></div>   
-        <div class="image bowl-4"><img src="imgs/bowl0.4.png"></div>   
-        <div class="image bowl-5"><img src="imgs/bowl0.5.png"></div>    
+        <div class="image pitcher-1"><img src="imgs/pitcher0.1.png"></div>
+        <div class="image pitcher-2"><img src="imgs/pitcher0.2.png"></div>   
+        <div class="image pitcher-3"><img src="imgs/pitcher0.3.png"></div>   
+        <div class="image pitcher-4"><img src="imgs/pitcher0.4.png"></div>   
+        <div class="image pitcher-5"><img src="imgs/pitcher0.5.png"></div>
+        <div class="image pitcher-6"><img src="imgs/pitcher0.6.png"></div>   
     </div>
 </div>
 
