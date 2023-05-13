@@ -1,0 +1,84 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+h3{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 60px;
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+
+}
+
+.left{ 
+float: left;
+margin-left: 100px;
+margin-top: 190px;
+}
+
+
+}
+
+.video{ 
+margin: 0 auto;
+	justify-content: center;
+}
+
+.right {
+float: right;
+margin-top: 190px;
+
+}
+
+
+.timer {
+	margin: 0 auto;
+	justify-content: center;
+    width: 200px;
+    height: 50vh;
+    font-weight: bold;
+}
+ 
+ 
+.digit {
+    font-size: 30px;
+    color: black;
+}
+ 
+.txt {
+    font-size: 30px;
+    color: black;
+}
+ 
+#buttons {
+    margin-top: 20px;
+}
+ 
+.btn {
+    margin: 0px 0px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.5s;
+    color: black;
+    font-weight: 10;
+    border: none;
+    outline: none;
+    background: none;
+    text-decoration: underline;
+}
+ 
+#start {
+    background-color: #ffff;
+}
+ 
+#stop {
+    background-color: #ffff;
+}
+ 
+#reset {
+    background-color: #ffff;
+}
+
